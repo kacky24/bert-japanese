@@ -5,5 +5,8 @@ data/wiki/*
 !data/wiki/.gitkeep
 model/*
 !model/.gitkeep
+results/*
+!results/.gitkeep
 __pycache__
 .ipynb_checkpoints
+.python-version
