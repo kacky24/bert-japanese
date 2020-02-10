@@ -1,0 +1,13 @@
+python3 src/run_pretraining.py \
+  --input_file=data/wiki/all-maxseq128_tmp.tfrecord \
+  --output_dir=results \
+  --use_tpu=False \
+  --do_train=True \
+  --do_eval=True \
+  --train_batch_size=64 \
+  --max_seq_length-128 \
+  --max_predictions_per_seq=20 \
+  --num_train_steps=1400000 \
+  --num_warmup_steps=10000 \
+  --save_checkpoints_steps=10000 \
+  --learning_rate=1e-4
