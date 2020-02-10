@@ -4,7 +4,7 @@ python3 src/run_pretraining.py \
   --use_tpu=False \
   --do_train=True \
   --do_eval=True \
-  --train_batch_size=64 \
+  --train_batch_size=32 \
   --max_seq_length-128 \
   --max_predictions_per_seq=20 \
   --num_train_steps=1400000 \
